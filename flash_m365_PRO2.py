@@ -73,7 +73,7 @@ if __name__ == '__main__':
  sys.stdout.write('flashing...\n')
  sys.stdout.flush()
  oocd.write_binary(0x08000000,'boot.bin')
- oocd.write_binary(0x08001000,'DRV223.bin')
+ oocd.write_binary(0x08001000,'DRV247.bin')
  oocd.write_binary(0x0800f800,'data_temp.bin')
  sys.stdout.write('done\n')
 
